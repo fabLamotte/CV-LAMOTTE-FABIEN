@@ -1,0 +1,97 @@
+header .header-banner{
+    position:relative;
+    height:50vh;
+    width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:10px solid black;
+}
+header .header-banner .back-header{
+    position:absolute;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index:1;
+}
+header .header-banner .back-header img{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-size: cover;
+    z-index:1;
+}
+header .header-banner .back-header .dark-filter{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:black;
+    opacity:0.6;
+    z-index:2;
+}
+header .header-banner .back-header .title{
+    position:absolute;
+    z-index:3;
+    color:white;
+    text-align: end;
+    margin: 0 10% 0 0 ;
+    width:100%;
+}
+header .header-banner .back-header h1{
+    color:white;
+    font-size: 56px;
+    margin: 0;
+    padding:0;
+    margin-right:10%;
+    display:none;
+    transition:margin-right 0.7s ease;
+}
+header .header-banner .back-header .subtitle{
+    z-index:3;
+    color:white;
+    font-size: 22px;
+    padding:0;
+    margin-right:-10%;
+    display:none;
+    transition:margin-right 0.7s ease;
+}
+header .header-banner .front-header{
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:2;
+}
+header .header-banner .front-header .photo {
+    filter: drop-shadow(15px 15px 15px black);
+    height:100%;
+    width:auto;
+    transition:margin-left 0.7s ease;
+    display:none;
+    transform:rotateY(180deg);
+}
+header .header-banner .front-header .photo.moved{
+    margin-left:5%;
+}
+header .header-banner .back-header h1.moved, header .back-header .subtitle.moved{
+    margin-right:0%;
+}
+header .header-title{
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-title h2{
+    font-size:32px;
+    font-family:"rock";
+    display: none;
+    text-align: center;
+    color:#818181;
+}
+header .header-title h2 .subtitle-form{
+    font-size:18px;
+    color:#ffb439;
+    font-weight: normal;
+}

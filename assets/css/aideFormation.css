@@ -1,0 +1,93 @@
+section h3{
+    text-align: center;
+    color:#818181;
+    font-size:52px;
+}
+.infos-persos{
+    border:1px solid #e9e9e9;
+    border-radius:5px;
+    box-shadow:2px 2px 3px #818181;
+}
+/* Disposition des blocks présentations */
+.infos-persos .presentation .age-presentation, .infos-persos .presentation .localisation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:auto;
+    margin-top:20px;
+}
+/* Stylisation des textes de chacun des blocs */
+.infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
+    font-weight: bold;
+    font-size:40px;
+    color:#ffb439;
+}
+.infos-persos .presentation .age-presentation .formation .formation-img{
+    height:250px;
+    width:auto;
+}
+.infos-persos .presentation .age-presentation .formation .formation-img img{
+    height:100%;
+    width:100%;
+    border-radius:5px;
+}
+.passions{
+    height:auto;
+    width:100%;
+    background:#818181;
+    padding:30px 0;
+    margin-top:20px;
+}
+.passions h3{
+    color:white;
+    font-family:"sunFlower";
+    font-weight: normal;
+}
+.passions .passions-group{
+    display: flex;
+    justify-content: space-around;
+}
+/* Disposition des blocks de hobbies */
+.passions .passions-group .music, .passions .passions-group .coding,.passions .passions-group .video-games,.passions .passions-group .reading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:25px;
+    font-family:"sunFlower";
+}
+.passions .passions-group img{
+    width:100px; 
+    height:100px;
+}
+.social-network{
+    height:auto;
+    width:100%;
+    background:#ffb439;
+    padding:30px 0;
+}
+.social-network h3{
+    color:white;
+}
+.social-network .sn-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-network .sn-group .linkedin, .social-network .sn-group .github, .social-network .sn-group .codingame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:25px;
+    font-family:"sunFlower";
+}
+.social-network .sn-group img{
+    width:100px; 
+    height:100px;
+}
+.social-network .sn-group .codingame .codingame-img{
+    border-radius:100%;
+}
