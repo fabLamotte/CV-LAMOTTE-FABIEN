@@ -3,3 +3,9 @@ section{
     margin-right:15%;
     min-height:100vh;
 }
+section .presentation{
+    min-height:1100px;
+}
+.hidden{
+    display:none;
+}

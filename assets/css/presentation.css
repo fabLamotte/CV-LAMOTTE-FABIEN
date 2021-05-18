@@ -3,28 +3,35 @@ section h3{
     color:#818181;
     font-size:52px;
 }
+
 .infos-persos{
     border:1px solid #e9e9e9;
     border-radius:5px;
     box-shadow:2px 2px 3px #818181;
 }
+
 /* Disposition des blocks présentations */
-.infos-persos .presentation .age-presentation, .infos-persos .presentation .localisation{
+.infos-persos .presentation .age-presentation{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:auto;
-    margin-top:20px;
+}
+.age-presentation .age, .age-presentation .formation{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /* Stylisation des textes de chacun des blocs */
-.infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
+.infos-persos .presentation .age-presentation .age{
     font-weight: bold;
     font-size:40px;
     color:#ffb439;
 }
 .infos-persos .presentation .age-presentation .formation .formation-img{
-    height:250px;
-    width:auto;
+    height:300px;
+    width:450px;
+    margin:0 20px;
 }
 .infos-persos .presentation .age-presentation .formation .formation-img img{
     height:100%;
@@ -46,6 +53,8 @@ section h3{
 .passions .passions-group{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 /* Disposition des blocks de hobbies */
 .passions .passions-group .music, .passions .passions-group .coding,.passions .passions-group .video-games,.passions .passions-group .reading{
@@ -58,8 +67,8 @@ section h3{
     font-family:"sunFlower";
 }
 .passions .passions-group img{
-    width:100px; 
-    height:100px;
+    width:150px; 
+    height:150px;
 }
 .social-network{
     height:auto;
@@ -69,11 +78,14 @@ section h3{
 }
 .social-network h3{
     color:white;
+    font-family:"sunFlower";
+    font-weight: normal;
 }
 .social-network .sn-group{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .social-network .sn-group .linkedin, .social-network .sn-group .github, .social-network .sn-group .codingame{
     display: flex;
@@ -85,9 +97,9 @@ section h3{
     font-family:"sunFlower";
 }
 .social-network .sn-group img{
-    width:100px; 
-    height:100px;
+    width:150px; 
+    height:150px;
 }
-.social-network .sn-group .codingame .codingame-img{
+.social-network .codingame_img{
     border-radius:100%;
 }

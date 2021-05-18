@@ -1,12 +1,15 @@
-
 @media screen and (max-width: 1400px) {
     section{
         margin-left:10%;
         margin-right:10%;
-        background:red;
         height:100vh;
     }
+    .infos-persos .presentation .age-presentation .formation .formation-img{
+        height:300px;
+        width:450px;
+    }
 }
+
 @media screen and (max-width: 1050px) {
     header .header-banner .back-header .title{
         width:50%;
@@ -14,9 +17,28 @@
     header .header-banner .back-header .title h1{
         font-size:45px;
     }
+    section .contrat-pro{
+        height:200px;
+        width:200px;
+    }
+    section{
+        margin-left:10%;
+        margin-right:10%;
+        height:100vh;
+    }
+    .experiences .card-element{
+        width:100%;
+    }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
+    .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
+        height:200px;
+        width:300px;
+    }
+}
+
+@media screen and (max-width: 770px) {
     header .header-banner .back-header .title{
         width:45%;
     }
@@ -36,7 +58,17 @@
     header .header-banner .front-header .photo.moved{
         margin-left:-20px;
     }
+    section{
+        margin-left:5%;
+        margin-right:5%;
+        height:100vh;
+    }
+    .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
+        height:180px;
+        width:220px;
+    }
 }
+
 @media screen and (max-width: 560px) {
     header .header-banner .back-header .title{
         min-width:25%;
@@ -60,7 +92,37 @@
     section{
         margin-left:5%;
         margin-right:5%;
-        background:red;
         height:100vh;
+    }
+    section img.contrat-pro{
+        height:150px;
+        width:150px;
+    }
+    .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
+        height:180px;
+        width:220px;
+    }
+    .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
+        font-size:30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
+        height:150px;
+        width:180px;
+    }
+    .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
+        font-size:25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
+        height:150px;
+        width:150px;
+    }
+    .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
+        font-size:25px;
     }
 }

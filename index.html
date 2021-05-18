@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/fonts.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/aideFormation.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/presentation.css" />
+    <link rel="stylesheet" href="assets/css/experiences.css" />
+    <link rel="stylesheet" href="assets/css/levelling.css" />
+    <link rel="stylesheet" href="assets/css/localisation.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css" />
     <title>CV M LAMOTTE Fabien</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -34,74 +37,187 @@
     </header>
     <br>
     <section>
+        <!-- Présentation personnelle -->
         <h3>Faisons les présentations</h3>
         <div class="infos-persos">
             <div class="presentation">
-                <div class="age-presentation">
-                    <div class="age">
-                        <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                        29 ans
-                    </div>
-                    <div class="formation">
-                        <div class="formation-img">
-                            <img src="assets/images/aide formation.jpg" alt="Contrat professionnel" title="Contrat professionnel" class="contrat-pro" />
+                <div class="age-block hidden">
+                    <div class="age-presentation">
+                        <div class="age">
+                            <div>
+                                <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+                                 29 ans
+                            </div>
+                        </div>
+                        <div class="formation">
+                            <div class="formation-img">
+                                <img src="assets/images/aide formation.jpg" alt="Contrat professionnel" title="Contrat professionnel" class="contrat-pro" />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="localisation">
-                    <div class="adresse">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        Tergnier
-                    </div>
-                    <!-- Ajout de la map après le chargement de la page en jquery pour ne pas ralentir l'animation de présentation -->
-                    <div class="carte"></div>
-                </div>
-                <div class="passions">
-                    <h3>Mes passions</h3>
-                    <div class="passions-group">
-                        <div class="music">
-                            Musique
-                            <img src="assets/images/music.png" title="Musique" alt="Musique" />
-                        </div>
-                        <div class="coding">
-                            Code
-                            <img src="assets/images/pc.png" title="Code" alt="Code" />
-                        </div>
-                        <div class="video-games">
-                            Jeux vidéos
-                            <img src="assets/images/videogame.png" title="Jeux vidéos" alt="Jeux vidéos" />
-                        </div>
-                        <div class="reading">
-                            Lecture
-                            <img src="assets/images/books.png" title="Lecture" alt="Lecture" />
+                <div class="passions-block hidden">
+                    <div class="passions">
+                        <h3>Mes passions</h3>
+                        <div class="passions-group">
+                            <div class="music">
+                                Musique
+                                <img src="assets/images/music.png" title="Musique" alt="Musique" />
+                            </div>
+                            <div class="coding">
+                                Code
+                                <img src="assets/images/pc.png" title="Code" alt="Code" />
+                            </div>
+                            <div class="video-games">
+                                Jeux vidéos
+                                <img src="assets/images/videogame.png" title="Jeux vidéos" alt="Jeux vidéos" />
+                            </div>
+                            <div class="reading">
+                                Lecture
+                                <img src="assets/images/books.png" title="Lecture" alt="Lecture" />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="social-network">
-                    <h3>Ces endroits où vous pouvez me retrouver !</h3>
-                    <div class="sn-group">
-                        <div class="linkedin">
-                            Linkedin
-                            <img src="assets/images/github.png" alt="Github" title="Github" />
-                        </div>
-                        <div class="github">
-                            Github
-                            <img src="assets/images/linedkin.png" alt="Linkedin" title="Linkedin" />
-                        </div>
-                        <div class="codingame">
-                            Codingame
-                            <img src="assets/images/codingame.png" alt="Codingame" title="Codingame" />
+                <div class="social-network-block hidden">
+                    <div class="social-network">
+                        <h3>Ces endroits où vous pouvez me retrouver !</h3>
+                        <div class="sn-group">
+                            <div class="linkedin">
+                                Linkedin
+                                <a href="https://fr.linkedin.com/in/fabien-lamotte-305043200" target="_blank"><img src="assets/images/linedkin.png" alt="Github" title="Github" /></a>
+                            </div>
+                            <div class="github">
+                                Github
+                                <a href="https://github.com/fabLamotte" target="_blank"><img src="assets/images/github.png" alt="Linkedin" title="Linkedin" /></a>
+                            </div>
+                            <div class="codingame">
+                                Codingame
+                                <a href="https://www.codingame.com/profile/00162815ee4705edb26f97a97b44fb727262233" target="_blank"><img src="assets/images/codingame.png" alt="Codingame" title="Codingame" class="codingame_img" /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--
-            Bénéfice formation
-            Experience
-            Maitrise
-            points fort
-        -->
+        <h3>Mes principales expériences dans le web</h3>
+        <div class="experience-block hidden">
+            <div class="experiences">
+                <div class="card-element">
+                    <div class="card">
+                        <div class="card-title">
+                            Hsk Digital
+                        </div>
+                        <div class="card-body">
+                            <div class="subtitle">Développeur web - stage - 1 mois</div>
+                            <div class="languages">Langage Yii2 - SuiteCrm</div>
+                            <div class="description">
+                                <p>
+                                    - Création d'un programme de patch-cheking pour les productions Magento de l'entreprise.<br>
+                                    - Prise en main et rédaction d'un rapport détaillé pour faciliter la rotation technologique des salariés de l'entreprise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-element">
+                    <div class="card">
+                        <div class="card-title">
+                            Beware Informatique - Saint-Quentin
+                        </div>
+                        <div class="card-body">
+                            <div class="subtitle">Développeur Symfony - stage - 2 mois</div>
+                            <div class="languages">Symfony 3.4</div>
+                            <div class="description">
+                                <p>
+                                    - Création de data-fixtures pour faciliter l'enrichissement des base de données.<br>
+                                    - Création de CV numérique en concordance avec la maquette fournie.<br>
+                                    - Ajout de contenu dans la partie admin des clients de la société.<br>
+                                    - Test des productions et détection de bugs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Mes maîtrises</h3>
+        <div class="mastering-block hidden">
+            <div class="mastering">
+                <div class="framework-block">
+                    <h4>Framework</h4>
+                    <ul class="list-framework">
+                        <li>
+                            <div class="title">Symfony</div>
+                            <div class="level">
+                                <div class="data symfony" style="display:none" data-level="60"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">React Native</div>
+                            <div class="level">
+                                <div class="data reactNative" style="display:none" data-level="20"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="language-block">
+                    <h4>Langages</h4>
+                    <ul class="list-language">
+                        <li>
+                            <div class="title">PHP</div>
+                            <div class="level">
+                                <div class="data" style="display:none" data-level="70"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">JAVASCRIPT</div>
+                            <div class="level">
+                                <div class="data" style="display:none" data-level="30"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">JQUERY</div>
+                            <div class="level">
+                                <div class="data" style="display:none" data-level="60"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">HTML</div>
+                            <div class="level">
+                                <div class="data" style="display:none" data-level="90"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">CSS</div>
+                            <div class="level">
+                                <div class="data" style="display:none" data-level="80"></div>
+                                <div class="empty-bar"></div>
+                                <div class="filling-bar"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="localisation-block hidden">
+            <div class="localisation">
+                <!-- Ajout de la map après le chargement de la page en jquery pour ne pas ralentir l'animation de présentation -->
+                <div class="carte"></div>
+            </div>
+        </div>
     </section>
     <script src="assets/js/script.js"></script>
 </body>

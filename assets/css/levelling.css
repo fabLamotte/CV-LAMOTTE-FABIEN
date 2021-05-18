@@ -1,0 +1,82 @@
+.mastering-block{
+    height:700px;
+    width:100%;
+}
+.mastering{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.mastering .framework-block, .mastering .language-block{
+    width:100%;
+    padding:10px;
+}
+.mastering .framework-block h4, .mastering .language-block h4{
+    border-radius:5px;
+    color:#ffb439;
+    height:10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"sunFlower";
+    font-weight: normal;
+    font-size:32px;
+    padding:10px;
+}
+.mastering .framework-block {
+    border-bottom:1px solid black;
+}
+.mastering .framework-block ul.list-framework, .mastering .language-block ul.list-language{
+    height:100%;
+    width:100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:0;
+}
+.mastering .framework-block ul.list-framework li, .mastering .language-block ul.list-language li{
+    width:100%;
+    margin:10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.mastering .framework-block ul.list-framework li .title, .mastering .language-block ul.list-language li .title{
+    color:#818181;
+    font-size:20px;
+    font-family:"sunFlower";
+    font-weight: normal;
+    height:100%;
+    width:30%;
+}
+.mastering .framework-block ul.list-framework li .level, .mastering .language-block ul.list-language li .level{
+    position:relative;
+    height:100%;
+    width:70%;
+}
+.mastering .framework-block ul.list-framework li .level .empty-bar, .mastering .language-block ul.list-language li .level .empty-bar{
+    z-index:1;
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:#f3e3d1;
+    border-radius:15px;
+}
+.mastering .framework-block ul.list-framework li .level .filling-bar, .mastering .language-block ul.list-language li .level .filling-bar{
+    z-index:2;
+    position:absolute;
+    height:100%;
+    width:0%;
+    background:#ff5733;
+    border-radius:15px;
+}
+.filling-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    padding-right:20px;
+    font-weight:bold;
+}
