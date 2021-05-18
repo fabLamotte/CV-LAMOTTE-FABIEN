@@ -39,6 +39,9 @@
 }
 
 @media screen and (max-width: 770px) {
+    h3{
+        font-size:18px !important;
+    }
     header .header-banner .back-header .title{
         width:45%;
     }
@@ -104,9 +107,6 @@
     }
     .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
         font-size:30px;
-    }
-    h3{
-        font-size:23px;
     }
 }
 
