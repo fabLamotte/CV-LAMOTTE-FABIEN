@@ -23,7 +23,7 @@ $(window).scroll(function (event) {
     }
     if(scroll > 1200){
         $('.experience-block').fadeIn(800);
-    }git config --global credential.helper cache
+    }
     if(scroll > 1500){
         $('.experience-block').fadeIn(800);
     }
