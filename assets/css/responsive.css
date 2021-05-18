@@ -105,6 +105,9 @@
     .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
         font-size:30px;
     }
+    h3{
+        font-size:23px;
+    }
 }
 
 @media screen and (max-width: 450px) {
