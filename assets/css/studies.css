@@ -8,13 +8,13 @@
     width:100%;
     height:100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 .studies-block .studies .diploma{
-    width:50%;
-    height:100%;
     color:#ffb439;
-    font-family:'sunFlower';
-    font-size: 35px;
-    text-align: center;
+    font-family: 'sunFlower';
+    font-size:45px;
 }
