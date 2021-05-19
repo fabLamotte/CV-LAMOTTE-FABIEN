@@ -119,6 +119,9 @@
     .mastering .framework-block ul.list-framework li .level, .mastering .language-block ul.list-language li .level{
         width:50%;
     }
+    .studies-block .studies .diploma{
+        width:100% !important;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -138,7 +141,6 @@
     header .header-title{
         margin-top:40px;
     }
-
     h3{
         font-size:40px !important;
     }
@@ -146,14 +148,12 @@
         width:100px !important; 
         height:100px !important;
     }
-
     .passions-group img{
         width:80px !important; 
         height:80px !important;
         padding:0 !important;
         margin:0 !important;
     }
-
     .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
         height:150px;
         width:150px;
