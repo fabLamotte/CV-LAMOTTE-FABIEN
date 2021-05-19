@@ -42,7 +42,7 @@ function levelAnimate(){
         $('.list-language li, .list-framework li').each(function(){
             var percent = $(this).find('div.data').attr('data-level');
             var bar = $(this).find('div.filling-bar');
-            bar.animate({'width': percent +'%'}, 1500).delay(1500).empty().append(percent + "%");
+            bar.animate({'width': percent +'%'}, 2500).delay(2500).empty().append(percent + "%");
         });
     }
 }
