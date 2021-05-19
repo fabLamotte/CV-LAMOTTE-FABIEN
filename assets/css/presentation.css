@@ -49,6 +49,8 @@ section h3{
     color:white;
     font-family:"sunFlower";
     font-weight: normal;
+    font-size:40px;
+    margin-bottom:40px;
 }
 .passions .passions-group{
     display: flex;
@@ -80,6 +82,8 @@ section h3{
     color:white;
     font-family:"sunFlower";
     font-weight: normal;
+    font-size:40px;
+    margin-bottom:40px;
 }
 .social-network .sn-group{
     display: flex;

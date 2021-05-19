@@ -47,7 +47,6 @@ header .header-banner .back-header h1{
     margin-right:10%;
     display:none;
     transition:margin-right 0.7s ease;
-    text-align: justify;
 }
 header .header-banner .back-header .subtitle{
     z-index:3;
@@ -57,7 +56,6 @@ header .header-banner .back-header .subtitle{
     margin-right:-10%;
     display:none;
     transition:margin-right 0.7s ease;
-    text-align: justify;
 }
 header .header-banner .front-header{
     position:absolute;

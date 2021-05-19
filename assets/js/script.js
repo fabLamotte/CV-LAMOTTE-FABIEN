@@ -21,17 +21,17 @@ $(window).scroll(function (event) {
     if(scroll > 600){
         $('.social-network-block').fadeIn(800);
     }
+    if(scroll > 800){
+        $('.experience-block').fadeIn(800);
+    }
+    if(scroll > 900){
+        $('.experience-block').fadeIn(800);
+    }
     if(scroll > 1200){
-        $('.experience-block').fadeIn(800);
-    }
-    if(scroll > 1500){
-        $('.experience-block').fadeIn(800);
-    }
-    if(scroll > 1700){
         $('.mastering-block').fadeIn(1200);
         levelAnimate();
     }
-    if(scroll > 1900){
+    if(scroll > 1500){
         $('.localisation-block').fadeIn(800);
     }
 });
