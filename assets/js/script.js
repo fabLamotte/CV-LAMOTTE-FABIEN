@@ -13,26 +13,26 @@ $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     
     if(scroll > 200){
-        $('.age-block').fadeIn(600);
+        $('.age-block').fadeIn(1200);
     }
     if(scroll > 400){
-        $('.passions-block').fadeIn(600);
+        $('.passions-block').fadeIn(1200);
     }
     if(scroll > 600){
-        $('.social-network-block').fadeIn(800);
+        $('.social-network-block').fadeIn(1200);
     }
     if(scroll > 800){
-        $('.experience-block').fadeIn(800);
+        $('.experience-block').fadeIn(1200);
     }
-    if(scroll > 900){
-        $('.studies-block').fadeIn(600);
+    if(scroll > 950){
+        $('.studies-block').fadeIn(1200);
     }
     if(scroll > 1200){
         $('.mastering-block').fadeIn(1200);
         levelAnimate();
     }
     if(scroll > 1500){
-        $('.localisation-block').fadeIn(800);
+        $('.localisation-block').fadeIn(1200);
     }
 });
 
