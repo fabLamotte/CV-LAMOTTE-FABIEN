@@ -36,6 +36,11 @@
         height:200px;
         width:300px;
     }
+    .passions-group div{
+        height:50%;
+        width:50%;
+        font-size:20px !important;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -58,9 +63,6 @@
         height:100%;
         bottom:0;
     }
-    header .header-banner .front-header .photo.moved{
-        margin-left:-20px;
-    }
     section{
         margin-left:5%;
         margin-right:5%;
@@ -73,6 +75,9 @@
 }
 
 @media screen and (max-width: 560px) {
+    header .header-title{
+        margin-top:40px;
+    }
     header .header-banner .back-header .title{
         min-width:25%;
     }
@@ -90,7 +95,7 @@
         bottom:0;
     }
     header .header-banner .front-header .photo.moved{
-        margin-left:-20px;
+        margin-left:-10px;
     }
     section{
         margin-left:5%;
@@ -108,6 +113,12 @@
     .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
         font-size:30px;
     }
+    .mastering .framework-block ul.list-framework li .title, .mastering .language-block ul.list-language li .title{
+        width:50%;
+    }
+    .mastering .framework-block ul.list-framework li .level, .mastering .language-block ul.list-language li .level{
+        width:50%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -118,14 +129,40 @@
     .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
         font-size:25px;
     }
+    header .header-banner .back-header .subtitle{
+        font-size:15px;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    header .header-title{
+        margin-top:40px;
+    }
+
+    h3{
+        font-size:40px !important;
+    }
+    .sn-group img{
+        width:100px !important; 
+        height:100px !important;
+    }
+
+    .passions-group img{
+        width:80px !important; 
+        height:80px !important;
+        padding:0 !important;
+        margin:0 !important;
+    }
+
     .carte .mapouter, .carte iframe, .carte .gmap_canvas, .infos-persos .presentation .age-presentation .formation .formation-img{
         height:150px;
         width:150px;
     }
     .infos-persos .presentation .age-presentation .age, .infos-persos .presentation .localisation .adresse{
         font-size:25px;
+    }
+    .filling-bar{
+        padding-right:5px !important;
+        font-size:12px !important;
     }
 }
