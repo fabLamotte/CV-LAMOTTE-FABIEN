@@ -1,0 +1,17 @@
+.studies-block{
+    width:100%;
+    height:150px;
+}
+.studies-block .studies{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family:"sunFlower";
+    font-weight: normal;
+    font-size:32px;
+    color:#ffb439;
+}

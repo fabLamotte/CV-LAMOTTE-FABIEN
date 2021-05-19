@@ -25,7 +25,7 @@ $(window).scroll(function (event) {
         $('.experience-block').fadeIn(800);
     }
     if(scroll > 900){
-        $('.experience-block').fadeIn(800);
+        $('.studies-block').fadeIn(600);
     }
     if(scroll > 1200){
         $('.mastering-block').fadeIn(1200);
