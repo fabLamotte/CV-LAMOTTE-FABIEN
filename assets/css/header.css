@@ -5,7 +5,6 @@ header .header-banner{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border:10px solid black;
 }
 header .header-banner .back-header{
     position:absolute;
