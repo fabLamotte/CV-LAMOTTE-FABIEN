@@ -165,4 +165,7 @@
         padding-right:5px !important;
         font-size:12px !important;
     }
+    .card-body{
+        padding:10px !important;
+    }
 }

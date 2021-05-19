@@ -27,11 +27,11 @@ $(window).scroll(function (event) {
     if(scroll > 950){
         $('.studies-block').fadeIn(1200);
     }
-    if(scroll > 1200){
+    if(scroll > 1500){
         $('.mastering-block').fadeIn(1200);
         levelAnimate();
     }
-    if(scroll > 1500){
+    if(scroll > 1700){
         $('.localisation-block').fadeIn(1200);
     }
 });
