@@ -13,3 +13,15 @@ section .presentation{
 .hidden{
     display:none;
 }
+.challengeMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom:30px;
+}
+.phone{
+    color:#ffb439;
+}
