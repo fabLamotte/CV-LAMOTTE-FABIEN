@@ -48,6 +48,7 @@
 .experiences .card-element .card .card-body .description{
     height:100%;
     max-height:130px;
+    min-height:130px;
     overflow:auto;
     border: 1px solid #DCDCDC;
     padding:10px 5px;
